@@ -1,0 +1,128 @@
+/* -------- Global Reset -------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* -------- Body Styling -------- */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #f9f9f9, #eef2f7);
+  color: #333;
+  padding: 30px;
+}
+
+/* -------- Headings -------- */
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+h3 {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+  color: #34495e;
+  border-left: 4px solid #3498db;
+  padding-left: 10px;
+}
+
+/* -------- Inputs & Selects -------- */
+input, select {
+  width: 250px;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+input:focus, select:focus {
+  border-color: #3498db;
+  box-shadow: 0 0 5px rgba(52, 152, 219, 0.4);
+}
+
+/* -------- Buttons -------- */
+button {
+  padding: 10px 18px;
+  margin: 8px 5px;
+  background: #3498db;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background: #2980b9;
+  transform: translateY(-2px);
+}
+
+button:active {
+  transform: scale(0.97);
+}
+
+/* -------- Output Section -------- */
+#output {
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  margin-top: 15px;
+  font-family: "Courier New", monospace;
+  font-size: 0.95rem;
+  white-space: pre-wrap;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+/* -------- Benchmark Image -------- */
+#benchmarkImage {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-top: 20px;
+  display: none;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* -------- Sections -------- */
+section {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+/* -------- Labels -------- */
+label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+.styled-table {
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 14px;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+
+.styled-table th, .styled-table td {
+  border: 1px solid #ddd;
+  padding: 8px 12px;
+  text-align: center;
+}
+.styled-table th {
+  background: #4CAF50;
+  color: white;
+}
+.styled-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
